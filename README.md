@@ -1,6 +1,6 @@
 # @nimbus-key/authorization-server-authorize
 
-Private server-side package for Nimbus Login and Facility Access. It is
+Private server-side package for Nimbus-T Login and Facility Access. It is
 designed for trusted partner backends and must never be imported into browser
 code. The package ships native ESM JavaScript plus TypeScript declarations.
 
