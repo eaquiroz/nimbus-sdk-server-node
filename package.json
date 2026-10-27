@@ -1,0 +1,29 @@
+{
+  "name": "@nimbus-key/authorization-server-authorize",
+  "version": "1.0.0-beta.1",
+  "description": "Server-side Nimbus Login and Facility Access client for trusted partner backends.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "publishConfig": {
+    "registry": "https://registry.nimbus-id.com/",
+    "access": "restricted"
+  },
+  "license": "UNLICENSED"
+}
